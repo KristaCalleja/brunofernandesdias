@@ -11,64 +11,43 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="ribbon">
-        <div class="logo">
-            BFD Bruno Fernandes Dias <br> <italic>Lawyer</italic>
-        </div>
-        <div class="telephone">
-            0055 (21) 97177-7734
-        </div>
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Bruno</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Focus Areas
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Case Studies</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Blog
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+<!-- Ribbon -->
+<div id="ribbon-placeholder">
+</div>
+<!-- Navbar -->
+<div id="nav-placeholder">
+</div>
+    
       <div class="banner">
         <div class="tagline">
             <h1>Experience. <br>Compassion.<br>Integrity.</h1>
+            <p>Brazilian Lawyer Bruno Fernandes Dias, Attorney General's State Attorney in Rio de Janeiro. Academic work focus on international investment law, regulation, compliance and taxation.</p>
         </div>
         <img src="images/001_klein.jpg" alt="">
       </div>
+
+<!-- Navbar -->
+<div id="nav-placeholder">
+</div>
+<div id="footer-placeholder">
+</div>
+<!-- Scripts -->
+<script>
+    $(function(){
+        $("#ribbon-placeholder").load("assets/ribbon.html");
+    });
+</script>
+
+<script>
+    $(function(){
+        $("#nav-placeholder").load("assets/nav.html");
+    });
+</script>
+<script>
+    $(function(){
+        $("#footer-placeholder").load("assets/footer.html");
+    });
+</script>
+
 </body>
 </html>

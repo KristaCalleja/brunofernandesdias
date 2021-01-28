@@ -20,7 +20,7 @@
     color: white;
     padding: 6px 12px;
     letter-spacing: .1em;
-    width: 250px;
+    width: 290px;
     float: right;
     top: 0;
     height: 50px;
@@ -32,8 +32,23 @@
     justify-content: space-around;
 }
 .banner{
-    border: 1px black solid;
+    /* border: 1px black solid; */
     background: linear-gradient(#4a4743, #9a969a);
     display: grid;
     grid-template-columns: 50% 50%;
+}
+.tagline{
+    /* border: 1px black solid; */
+    margin-left: 120px;
+    padding: 90px;
+    color: white;
+    font-weight: 800;
+}
+.tagline h1{
+    font-weight: 600;
+} 
+.tagline p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 400;
 }
