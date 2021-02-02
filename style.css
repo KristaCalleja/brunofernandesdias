@@ -12,8 +12,6 @@
 }
 .logo{
     margin-top: 25px;
-    font-size: 38px;
-    font-weight: 600;
 }
 .telephone{
     background: #da291e;
@@ -31,15 +29,15 @@
     justify-content: space-around;
 }
 .banner{
-    /* border: 1px black solid; */
+    border: 1px black solid;
     background: linear-gradient(#4a4743, #9a969a);
     display: grid;
     grid-template-columns: 50% 50%;
+    padding: 70px 0;
 }
 .tagline{
-    /* border: 1px black solid; */
-    margin-left: 120px;
-    padding: 90px;
+    border: 1px black solid;
+    padding: 150px;
     color: white;
     font-weight: 800;
 }
@@ -50,4 +48,31 @@
     margin-top: 30px;
     font-size: 18px;
     font-weight: 400;
+}
+.main{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 120vh;
+}
+.social{
+    display: 1px black solid;
+}
+.footer{
+    background: #292b2e;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 60px;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+    line-height: 1.9em;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.footer a img{
+    height: 25px;
+    color: white;
 }
