@@ -3,7 +3,6 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
-
 .ribbon{
     /* border: 1px black solid; */
     background: linear-gradient(#f4f1ee, #c8cabf);
@@ -12,16 +11,16 @@
     justify-content: space-between;
 }
 .logo{
+    margin-top: 25px;
     font-size: 38px;
     font-weight: 600;
 }
 .telephone{
     background: #da291e;
     color: white;
-    padding: 6px 12px;
+    padding: 6px;
     letter-spacing: .1em;
-    width: 290px;
-    float: right;
+    max-width: 290px;
     top: 0;
     height: 50px;
 }
